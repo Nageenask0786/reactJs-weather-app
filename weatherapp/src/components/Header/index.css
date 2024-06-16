@@ -1,0 +1,47 @@
+.light-theme {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.dark-theme {
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.logo {
+  height: 40px;
+  width: 90px;
+  margin-left: 80px;
+}
+
+button {
+  border: 0px;
+  cursor: pointer;
+  margin: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dark-theme-btn {
+  background-color: black;
+}
+
+.light-theme-btn {
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .dark-theme-btn,
+  .light-theme-btn {
+    margin: 15px;
+  }
+}
